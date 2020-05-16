@@ -95,6 +95,10 @@ namespace MVCTutorial.Models
          * public double {}
          * public enum {}
          * public float {}
+         *
+         * ----
+         * LONG STORY CUT SHORT
+         * A Model represents your data structures. Typically your model classes with contain functions that help you create, read, update, delete (CRUD) information in your Database.
          */
         
         public int Id { get; set; }
