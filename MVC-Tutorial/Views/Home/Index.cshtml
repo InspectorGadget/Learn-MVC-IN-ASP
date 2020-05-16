@@ -1,0 +1,27 @@
+﻿<!-- 
+Any HTML entered here gets auto rendered into the <body></body> of your Layout Template File.
+-->
+
+<!--
+Have a custom template?
+Sure, you can add it as well
+-->
+
+@* @{ *@
+@*     Layout = "~/Views/Shared/_Layout.cshtml"; *@
+@* } *@
+
+<!-- 
+Do you want Dynamic Value Binding?
+Like page title, etc?
+Yes, you can too!
+
+ASP uses @{} syntax, it's exactly like a templating engine. If you are used to Flask's Jinja or Laravel's Blade, they are the same. 
+ASP also uses ViewBag, this is used to pass parameters into the View asynchronously without impacting the view's performance.
+-->
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<p>Hello World. This is the main page. Now check the Page Title on the top! Is it the same with ViewBag?</p>
